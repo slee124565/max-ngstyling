@@ -36,3 +36,27 @@
         opacity: 0.1;
     }
 }
+
+.loading-bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.loading-bar-element {
+    width: 0;
+    height: 20px;
+    background-color: deepskyblue;
+    animation: loading 2s ease-in infinite;
+    box-sizing: content-box;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

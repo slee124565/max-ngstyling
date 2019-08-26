@@ -9,6 +9,25 @@
     width: 300px;
 }
 
+.boombed {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation: boombed 0.5s ease-out forwards
+}
+
+@keyframes boombed {
+    0% {
+        transition: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #div2 {
     width: 150px;
     height: 75px;
